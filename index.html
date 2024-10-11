@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>fast food</title>
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet"
+  href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css>
+ 
+  
+</head>
+<body>
+  <header >
+    
+    <div class="logo">
+      <img src="images/logo1.jpg" alt="logo"> <span>FAST FOOD</span>
+  </div>
+
+    <nav class="navbar">
+      <a class="active" href="#home">TRANG CHỦ</a>
+      <a href="#dishes">THỰC ĐƠN</a>
+      <a href="#promotion">KHUYẾN MÃI</a>
+      <a href="#service">DỊCH VỤ</a>
+      <a href="#store">CỬA HÀNG</a>
+      <a href="#contact">LIÊN HỆ</a>
+    </nav>
+
+    <div class="options">
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i> 
+        <span id="current-location">HỒ CHÍ MINH</span>
+        <div class="location-dropdown" style="display: none;">
+          <ul>
+            <li data-location="HÀ NỘI">HÀ NỘI</li>
+            <li data-location="ĐÀ NẴNG">ĐÀ NẴNG</li>
+            <li data-location="CẦN THƠ">CẦN THƠ</li>
+          </ul>
+        </div>
+      </div>
+      <div class="auth">
+        <a href="#" id="register-btn">ĐĂNG KÝ</a>
+      </div>
+      <div class="auth">
+        <a href="#" id="login-btn">ĐĂNG NHẬP</a>
+      </div>
+      <div class="phone">
+        <button class="pickup-btn">PICK UP</button>
+        <div class="phone-number">
+          <i class="fas fa-phone-alt"></i> 1900-1533
+          <span>GIAO HÀNG TẬN NƠI</span>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+    </div>
+  </header>
+
+  <div class="carousel">
+    <div class="list">
+      <div class="item" style="background-image: url(images/banner8.jpg);">
+        
+      </div>
+      
+      <div class="item" style="background-image: url(images/banner1.jpg);">
+        <div class="content">
+          <div class="title">COMBO</div>
+          <div class="name">Mì Ý Jolly</div>
+          <div class="des"> 1 mỳ ý + 2 gà giòn </div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner3.jpg);">
+        <div class="content">
+          <div class="name">Gà sốt cay</div>
+          <div class="des"> 2 miếng gà sốt cay </div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner4.jpg);">
+        <div class="content">
+          <div class="name">Buger</div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner5.jpg);">
+        <div class="content">
+          <div class="name">Phần ăn phụ </div>
+          <div class="des"> Khoai tây chiên</div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner6.jpg);">
+        <div class="content">
+          <div class="name">Thức uống</div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner7.jpg);">
+        <div class="content">
+          <div class="name">Món tráng miệng</div>
+          <div class="des"> Kem vani</div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(images/banner2.jpg);">
+        <div class="content">
+          <div class="name">Món ngon phải thử </div>
+          <div class="des"> Combo cả nhà no nê </div>
+          <div class="btn">
+            <button> Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrows">
+      <button class="prev"><</button>
+      <button class="next">></button>
+
+    </div>
+    <div class="timeRunning"></div>
+
+  </div>
+
+
+  <section class="dishes" id="dishes">
+    <h1 class="sub-heading">Ăn gì </h1>
+    <h3 class="heading">hôm nay </h3>
+    <div class="box-container">
+
+    <div class="box">
+      <img src ="images/1c.png" al="">
+      <h3>1 Đùi gà giòn </h3>
+      <span> 33,000đ</span>
+      <a href="#" class="btn"> ĐẶT HÀNG</a>
+    </div>
+
+    <div class="box">
+      <img src ="images/2c.png" al="">
+      <h3>2 Đùi gà giòn </h3>
+      <span> 66,000đ</span>
+      <a href="#" class="btn"> ĐẶT HÀNG</a>
+    </div>
+
+    <div class="box">
+      <img src ="images/4c.png" al="">
+      <h3>4 Đùi gà giòn </h3>
+      <span> 126,000đ</span>
+      <a href="#" class="btn"> ĐẶT HÀNG</a>
+    </div>
+
+    <div class="box">
+      <img src ="images/6c.png" al="">
+      <h3>6 Đùi gà giòn </h3>
+      <span> 188,000đ</span>
+      <a href="#" class="btn"> ĐẶT HÀNG</a>
+    </div>
+
+
+    <div class="box">
+      <img src ="images/comkn.png" al="">
+      <h3>1 cơm gà giòn </h3>
+      <span> 48,000đ</span>
+      <a href="#" class="btn"> ĐẶT HÀNG</a>
+    </div>
+
+
+   
+  </section>
+  <div class="footer">
+    <div class="column">
+        <div class="contact-info">
+            <p><strong>Nhóm 6</strong></p>
+            <p>Địa chỉ: 18A Cộng Hòa,Phường 4, Quận Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</p>
+            <p>Điện thoại: (028) 39309168</p>
+            <p>Tổng đài: 1900-1533</p>
+            <p>Mã số thuế: 0303883266</p>
+            <p>Ngày cấp: 15/07/2008 – Nơi cấp: Cục Thuế Hồ Chí Minh</p>
+            
+        </div>
+    </div>
+
+    <div class="column">
+        <h3>Liên hệ</h3>
+        <div class="links">
+            <a href="#">Chính sách và quy định chung</a>
+            <a href="#">Chính sách thanh toán khi đặt hàng</a>
+            <a href="#">Chính sách hoạt động</a>
+            <a href="#">Chính sách bảo mật thông tin</a>
+            <a href="#">Thông tin vận chuyển và giao nhận</a>
+            <a href="#">Thông tin đăng ký giao dịch chung</a>
+            <a href="#">Hướng dẫn đặt phần ăn</a>
+        </div>
+    </div>
+
+    <div class="column">
+        <h3>Hãy kết nối với chúng tôi</h3>
+        <div class="social-media">
+            <a href="#">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="#">
+                <i class="fas fa-envelope"></i> E-Mail
+            </a>
+        </div>
+        >
+    </div>
+</div>
+
+<div class="copyright">
+    <p>© 2024 Fast Food </p>
+</div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
