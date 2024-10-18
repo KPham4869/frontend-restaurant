@@ -1,0 +1,110 @@
+
+/* Định dạng cho overlay chứa thông tin đặt hàng */
+.order-details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Định dạng cho hộp thông tin đặt hàng */
+  .order-info {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Định dạng tiêu đề */
+  .order-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Định dạng hình ảnh món ăn */
+  .order-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Định dạng cho phần tên món ăn và giá */
+  .order-info p {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  /* Định dạng cho điều khiển số lượng */
+  .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .quantity-control button {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    background-color: #f0c14b;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+  
+    /* Đảm bảo chữ căn giữa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Để đảm bảo chiều cao dòng không ảnh hưởng */
+  }
+  
+  .quantity-control span {
+    font-size: 28px;
+    margin: 0 10px;
+  }
+  
+  /* Định dạng tổng cộng */
+  .order-info #totalPrice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e60023;
+  }
+  
+  /* Định dạng cho các nút */
+  .order-info button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .order-info button:hover {
+    background-color: #e03e1e;
+  }
+  
+  /* Định dạng nút "Đóng" */
+  #closeOrderInfo {
+    background-color: #666;
+  }
+  
+  #closeOrderInfo:hover {
+    background-color: #555;
+  }
+  
